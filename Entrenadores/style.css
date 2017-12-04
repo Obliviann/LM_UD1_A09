@@ -1,0 +1,77 @@
+*{
+text-align: center;
+}
+
+h1{
+  font-family:Engravers MT;
+  font-size: 60px;
+}
+body{
+background: url("https://cdn.pixabay.com/photo/2017/06/01/02/21/marble-2362267_960_720.jpg") no-repeat center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section {
+display: flex;
+justify-content: center;
+
+/*todos los items que tiene dentro se comportan como inline*/
+}
+.imagen{
+background-color: black;
+width: 40%;
+padding: 5px;
+}
+
+.video {
+width: 100%;
+padding: 5px;
+
+}
+
+.texto {
+text-align: justify;
+color:  white;
+text-align: center;
+background-color: black;
+width: 30%;
+
+}
+}
+
+article{
+display: inline-block;
+}
+p {
+    border: 2px solid black;
+}
+h2 {
+    font-family:American Typewriter;
+}
+h3 {
+font-size: 20px;
+    font-family:Avenir Next Regular;
+}
+h4{
+font-size: 25px;
+border: 2px solid black;
+}
+
+
+.container {
+  display: flex;
+  border: solid green 2px;
+  flex-wrap: wrap;
+}
+
+
+.item {
+width: 49%;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+}
