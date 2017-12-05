@@ -15,7 +15,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
-  background-repeat:no-repeat;
+  /*background-repeat:no-repeat;*/
   background-size: cover;
 }
 
@@ -146,7 +146,6 @@ h4{
 font-size: 25px;
 border: 2px solid black;
 }
-
 
 .container {
   display: flex;
